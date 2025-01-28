@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 8, 35, 0.9);
+}
+
+header {
+    background-color: rgba(0, 8, 45, 1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+button {
+    background-color: rgba(0,136,189,1);
+    border-radius: 10px;
+
+    padding: 10px;
+    border: none;
+    transition: all 0.3s ease 10ms;
+}
+
+button:hover {
+    background-color: rgba(0,136,189,0.8)
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 10ms;
+}
+
+.nav__links li a:hover {
+    color: rgba(0,136,189,1)
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 30px 10%;
+    color: antiquewhite;
+}
+
+main h1 {
+    padding: 0px 0px 15px 0px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img, h2 {
+    padding: 0px 10px;
+}
+
+.about p {
+    padding: 10px 10px;
+}
+
+main h1 {
+    justify-self: center;
+
+    padding-bottom: 50px;
+}
+
+.infoCards {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    height: 400px;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: rgba(0, 8, 35, 0.7);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.card p {
+    padding: 30px 0px;;
+}
+
+
+
+.project_section h2 {
+    text-align: center;
+
+    padding: 50px 0px 30px 0px;
+}
+
+
+footer {
+    height: 100px;
+    padding: 20px;
+
+    color: antiquewhite;
+    background-color: rgba(0, 8, 45, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_links {
+    list-style: none;
+}
+
+.footer_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.footer_links li a {
+    transition: all 0.3s ease 10ms;
+}
+
+.footer_links li a:hover {
+    color: rgba(0,136,189,1)
+}

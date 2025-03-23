@@ -2,4 +2,4 @@
 <br>
 Hey there! My name is Ved Pradhan.
 <br>
-Nice to have you here!!
+Nice to have you here!! I am learning Git and GIthub!!
